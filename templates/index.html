@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home page</title>
+   {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    
+    
+   
+</head>
+<body>
+<h1>Shop application</h1>
+<a href="{% url 'form' %}" class="btn btn-outline-primary">form</a>
+<a href="{% url 'info' %}" class="btn btn-outline-danger">info</a>
+<a href="{% url 'gallery' %}" class="btn btn-outline-info">gallery</a>
+
+
+
+<p id="paragraph1"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores aspernatur cumque, dolor fugiat id ipsum iste libero natus neque nobis numquam officiis optio provident quisquam repellendus unde vel! Delectus?</span><span>Accusantium ad alias animi dignissimos, dolorem doloremque eaque eius error eum exercitationem explicabo facere ipsum iure maiores modi nisi quibusdam quo ratione tempore voluptate! Distinctio et facilis veritatis vero voluptates.</span></p>
+
+<div class="main">
+    <img src="{% static 'assets/resources/img_4.png' %}" alt="" class="myimage">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta doloremque eveniet facilis inventore magni minus nam, non, obcaecati officiis omnis, quos ratione saepe sed sunt tempore tenetur ullam voluptates!</p>
+    
+</div>
+
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eos harum impedit, itaque magni, maiores minima nihil obcaecati optio perspiciatis placeat qui suscipit. Cum ipsam minima mollitia. Aperiam, debitis voluptatum?</p>
+
+<div class="home">
+    <img src="{% static 'assets/resources/img.png' %}" alt="">
+    <img src="{% static 'assets/resources/img_1.png' %}" alt="">
+    <img src="{% static 'assets/resources/img_2.png' %}" alt="">
+    <img src="{% static 'assets/resources/img_3.png' %}" alt="">
+    
+    
+    
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

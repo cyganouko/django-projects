@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Client section</title>
+    {% load static %}
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+    
+    
+    
+</head>
+<body>
+<form action="" class="mt-4">
+    <h2 class="text-center">Powering world-class companies</h2>
+    <div class="row mb-3">
+        <div class="col">
+            <label for="fname">Firstname*</label>
+            <input type="text" class="form-control mb-2" id="fname"placeholder="enter your first name" required="required">
+        </div>
+        <div class="col">
+            
+                       <label for="lname">Lastname*</label>
+            <input type="text" class="form-control mb-2" id="lname"placeholder="enter your last name" required="required"> 
+            
+        </div> 
+        
+    </div>
+    
+    
+    <div class="row">
+        <div class="col">
+            <label for="email" class="form-label">Business email*</label>
+            <input type="email"id="email" class="form-control">
+            
+        </div>
+        <div class="col">
+             <label for="pnumber" class="form-label">Phone number*</label>
+            <input type="tel"id="pnumber" class="form-control">
+            
+            
+        </div>
+    </div>
+    
+    
+    <div class="mb-3">
+
+        <label for="job" class="form-label">Job title*</label>
+        <input type="text" id="job" class="form-control">
+    </div>
+    
+    <div class="mb-3">
+
+        <label for="message" class="form-label">What will you be using flinks for?*</label>
+        <input type="text" id="message" class="form-control">
+    </div>
+    
+    <div>
+        <button class="btn btn-primary ms-5 float-end">REQUEST A DEMO</button>
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</form>
+
+
+
+
+
+
+</body>
+</html>
